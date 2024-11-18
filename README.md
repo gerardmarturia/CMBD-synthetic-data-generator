@@ -2,7 +2,7 @@
 
 This project focuses on the development of a system for generating **realistic synthetic data** from real clinical records, aiming to ensure patient privacy while preserving the utility and representativeness of the data.  
 
-In the healthcare sector, strict confidentiality regulations limit access to real data, which hinders the possibility of joint statistical studies across institutions. This project addresses this challenge by employing clustering techniques and generative models to create synthetic data that mimics real datasets while maintaining patient anonymity.
+In the healthcare sector, strict confidentiality regulations limit access to real data, hindering joint statistical studies across institutions. This project addresses this challenge by employing clustering techniques and generative models to create synthetic data that mimics real datasets while maintaining patient anonymity.
 
 ---
 
@@ -47,7 +47,7 @@ The generated synthetic data was evaluated through various analyses, with **accu
 | Full Dataset (Previous + POA)                    | 93%          | Order matters (see Annex B).  |
 | Demographics + Diagnoses                         | 56%          | Replicated results (Annex C). |
 
-- The **highest accuracy (93%)** was achieved by including all input features, demonstrating the effectiveness of the methodology.  
+- The **lowest accuracy (83%), and yet the best results**, was achieved by including all input features except POA, demonstrating the methodology's effectiveness with still improvements to be made.  
 
 ---
 
